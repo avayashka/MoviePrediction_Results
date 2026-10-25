@@ -1,0 +1,4 @@
+Stability check,Value
+Mean Spearman rho of mean |SHAP| across 3 seeds,1.000
+Mean top-10 overlap across 3 seeds,1.00
+"Top-10 overlap, te vs le encoding",0.90

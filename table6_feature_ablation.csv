@@ -1,0 +1,6 @@
+Feature set,R²,RMSE (ln),MAE (ln)
+"F1: budget, date, franchise, language",0.487 (±0.003),1.736 (±0.005),1.237 (±0.006)
+F2: F1 + genre,0.495 (±0.004),1.722 (±0.007),1.230 (±0.006)
+"F3: F2 + company, lead actor, director",0.516 (±0.002),1.686 (±0.003),1.221 (±0.005)
+F3 + runtime (= main model),0.529 (±0.004),1.663 (±0.006),1.213 (±0.005)
+Main model without budget,0.437 (±0.002),1.818 (±0.004),1.360 (±0.006)

@@ -1,0 +1,3 @@
+Set,n,Mean (ln USD),Median,SD,Skewness,Min,Max
+Training set,4109.0,16.981,17.269,2.023,-1.054,7.248,21.749
+Test set,1027.0,17.057,17.563,2.425,-1.029,7.57,21.45

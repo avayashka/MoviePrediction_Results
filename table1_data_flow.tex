@@ -1,0 +1,12 @@
+\begin{tabular}{lrrl}
+\toprule
+Step & Records remaining & Records removed & Reason \\
+\midrule
+Raw records (movies\_metadata.csv) & 45466 & 0 & starting point \\
+After merge with credits.csv & 45538 & -72 & negative = rows added by duplicated ids in credits.csv \\
+Revenue and budget >= US\$1,000 & 5322 & 40216 & zero/undisclosed or implausible financials \\
+Valid release date & 5322 & 0 & missing or unparseable date \\
+Complete runtime/genre/company/lead actor/director & 5151 & 171 & missing values (rows missing per column: \{'runtime': 1, 'primary\_genre': 11, 'primary\_company': 166, 'lead\_actor': 9, 'director': 4\}) \\
+Unique film identifier & 5136 & 15 & duplicate records \\
+\bottomrule
+\end{tabular}

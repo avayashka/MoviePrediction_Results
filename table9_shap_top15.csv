@@ -1,0 +1,12 @@
+Feature,Mean |SHAP| (ln USD)
+log_budget,0.8568
+primary_company,0.3704
+is_franchise,0.3166
+director,0.2364
+runtime,0.1977
+lead_actor,0.1687
+release_year,0.1298
+primary_genre,0.1073
+month_sin,0.0425
+month_cos,0.0386
+is_english,0.0201

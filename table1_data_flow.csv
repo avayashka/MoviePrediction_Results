@@ -1,0 +1,7 @@
+Step,Records remaining,Records removed,Reason
+Raw records (movies_metadata.csv),45466,0,starting point
+After merge with credits.csv,45538,-72,negative = rows added by duplicated ids in credits.csv
+"Revenue and budget >= US$1,000",5322,40216,zero/undisclosed or implausible financials
+Valid release date,5322,0,missing or unparseable date
+Complete runtime/genre/company/lead actor/director,5151,171,"missing values (rows missing per column: {'runtime': 1, 'primary_genre': 11, 'primary_company': 166, 'lead_actor': 9, 'director': 4})"
+Unique film identifier,5136,15,duplicate records

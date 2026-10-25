@@ -1,0 +1,17 @@
+\begin{tabular}{ll}
+\toprule
+Item & Value \\
+\midrule
+Source & The Movies Dataset (Kaggle; TMDB + GroupLens), movies\_metadata.csv + credits.csv \\
+Raw records & 45,466 (of which 83.7\% have zero/missing revenue) \\
+Final records after cleaning & 5,136  (removed: 40,330; see Table 1) \\
+Period of release dates & 1915-02-08 to 2017-08-04 \\
+Training/validation set & 4,109 films, 1915-02-08 to 2012-08-02 \\
+Validation scheme & expanding-window TimeSeriesSplit (5 folds) inside the training set; validation block sizes: 684, 684, 684, 684, 684 \\
+Test set (used once) & 1,027 films, 2012-08-03 to 2017-08-04 \\
+Cut-off date & 2012-08-02 \\
+Target & ln(1 + revenue in nominal USD) \\
+Target mean +/- SD (train / test) & 16.98 ± 2.02 / 17.06 ± 2.42 \\
+Features & log\_budget, runtime, primary\_genre, primary\_company, lead\_actor, director, release\_year, month\_sin, month\_cos, is\_franchise, is\_english \\
+\bottomrule
+\end{tabular}

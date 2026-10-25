@@ -1,0 +1,13 @@
+Grouping,Group,n films,MAE baseline (ln),MAE candidate (ln),Bias candidate (mean ln error),Rel. reduction (%)
+Budget quartile,Q1,232,1.577,1.6623,-0.4068,-5.4124
+Budget quartile,Q2,273,1.5843,1.5829,-0.098,0.0881
+Budget quartile,Q3,240,1.0662,0.9747,-0.0883,8.5808
+Budget quartile,Q4,282,0.8626,0.681,-0.2615,21.0536
+Release year,2012,95,1.3177,1.3379,0.065,-1.5365
+Release year,2013,218,1.3055,1.2344,-0.1637,5.4423
+Release year,2014,206,1.236,1.1394,-0.1682,7.8147
+Release year,2015,206,1.3095,1.2482,-0.3791,4.6797
+Release year,2016,231,1.1905,1.1572,-0.241,2.7934
+Release year,2017,71,1.2447,1.245,-0.2551,-0.0192
+Franchise,franchise,202,0.7626,0.7194,-0.2924,5.6749
+Franchise,stand-alone,825,1.386,1.3315,-0.1903,3.9362

@@ -1,0 +1,5 @@
+Statistic,Value
+Overall bias (mean ln error),-0.210
+Share of films predicted within a factor of 2,40.0%
+Share over-predicted,35.4%
+95th percentile of |error| (ln USD),3.35
