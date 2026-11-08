@@ -10,13 +10,3 @@ xgboost==3.1.2
 catboost==1.2.10
 shap==0.54.1
 optuna==5.0.0
-
-# Plots, Holm correction and LaTeX table export (pandas.to_latex needs jinja2).
-# Pin these to the versions installed in your environment.
-matplotlib
-seaborn
-statsmodels
-jinja2
-
-# To open and run the notebook
-jupyter
